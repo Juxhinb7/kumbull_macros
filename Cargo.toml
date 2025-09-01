@@ -8,7 +8,7 @@ license = "MIT"
 
 
 [dependencies]
-syn = "2.0.106"
+syn = { version = "2.0.106", features = ["full"] }
 quote = "1.0.40"
 
 [lib]
