@@ -15,7 +15,7 @@ pub fn component(_attr: TokenStream, item: TokenStream) -> TokenStream {
         #input
 
         impl crate::Component for #struct_name {
-            pub fn type_name() -> &'static str {
+            fn type_name() -> &'static str {
                 stringify!(#struct_name)
             }   
         }
