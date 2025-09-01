@@ -1,6 +1,6 @@
 [package]
 name = "kumbull_macros"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Procedural macros"
 repository = "https://github.com/Juxhinb7/kumbull_macros"
