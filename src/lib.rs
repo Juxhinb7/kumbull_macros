@@ -21,5 +21,5 @@ pub fn component(_attr: TokenStream, item: TokenStream) -> TokenStream {
         }
     };
 
-    expanded
+    TokenStream::from(expanded)
 }
