@@ -14,7 +14,7 @@ pub fn component(_attr: TokenStream, item: TokenStream) -> TokenStream {
     let expanded = quote! {
         #input
 
-        impl kumbull::Component for #struct_name {
+        impl crate::Component for #struct_name {
             pub fn type_name() -> &'static str {
                 stringify!(#struct_name)
             }   
