@@ -1,0 +1,13 @@
+[package]
+name = "kumbull_macros"
+version = "0.1.0"
+edition = "2021"
+description = "Procedural macros"
+license = "MIT"
+
+[dependencies]
+syn = "2.0.106"
+quote = "1.0.40"
+
+[lib]
+proc-macro = true
